@@ -10,7 +10,7 @@ interface siswaservice{
   public function update($id,$nama,$alamat):void;
   public function findAll():array;
   public function find($siswa):array;
-  public function pagination($id):array;
+  
 }
 
 class siswaserviceimpl implements siswaservice{
